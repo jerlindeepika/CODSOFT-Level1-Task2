@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(8, 8, 8);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.about-container p {
+  font-family: europa;
+}
+
+.about-section {
+  margin-top: 500px;
+}
+
+.carousel-caption h3 {
+  color: #101010; 
+}
+
+.carousel-caption p {
+  color: #171817;
+}
+.Navbar.Brand img {
+  border-radius: 100%;
+}
+
+
+.title {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 160%;
+  color: #000000;
+}
+.subtitle {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1d2b4f;
+  padding: 20px 0 5px 0;
+}
+.text-no {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #000000;
+}
+.card-container {
+  padding: 50px;
+  max-width: 458px;
+  background: #fafafa;
+  border-radius: 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+
+
+.form-container {
+  width: 40%;
+  padding-right: 100px;
+}
+
+/* Add your existing styles below this line */
+/* ... */
+
+.App {
+  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  min-height: 200px;
+  width: 90vw;
+  margin: 100px auto;
+  background: white;
+  border-radius: 5px;
+}
+.button {
+  background: #005981;
+  border-radius: 10px;
+}
